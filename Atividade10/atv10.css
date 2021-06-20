@@ -1,0 +1,20 @@
+body{
+    background-color: #BEB8EB;
+}
+
+header{
+    background-color: #4F5284;
+    padding: 10px 8px 10px 8px;
+}
+
+h1{
+    color: white;
+}
+
+.class:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border-bottom: 10px;
+    border-radius: 2px;
+}
