@@ -1,0 +1,202 @@
+header{
+    box-shadow: rgb(0 0 0 / 30%) 0px 10px 36px -18px inset;
+    padding: 2px 2px 2px 2px;
+}
+
+footer{
+    text-align: center;
+    background-color: #BEDCE4;
+    color: #1D2F4D;
+    box-shadow: rgb(50 50 93 / 25%) 0px 30px 60px -12px inset, rgb(0 0 0 / 30%) 0px 18px 36px -18px inset;
+    padding: 1px 1px 2px 1px;
+}
+
+main{
+    background-image: url('imagensF/WhatsApp Image 2021-06-26 at 14.52.54.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    margin: 0;
+}
+
+h4{
+    animation-name: h4;
+    animation-play-state: initial;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    cursor: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@keyframes h4{
+    0% { color:#1D2F4D;}
+    3% { color: white;}
+    6% { color: #A8D0DB;}
+    9% { color: #1D2F4D;}
+    12% { color: white;}
+    15% { color: #A8D0DB;}
+    18% { color: #1D2F4D;}
+    21% { color: white;}
+    24% { color: #A8D0DB;}
+    27% { color: #1D2F4D;}
+    30% { color: white;}
+    33% { color: #A8D0DB;}
+    36% { color: #1D2F4D;}
+    39% { color: white;}
+    42% { color: #A8D0DB;}
+    45% { color: #1D2F4D;}
+    48% { color: white;}
+    51% { color: #A8D0DB;}
+    54% { color: #1D2F4D;}
+    57% { color: white;}
+}
+
+.botao-menu:hover{
+    border: none;
+    background-color: #A8D0DB;
+    color: white;
+    cursor: pointer;
+}
+
+.close:hover{
+    border: none;
+    background-color: #A8D0DB;
+    color: white;
+    cursor: pointer;
+}
+
+.botao-menu{
+    margin: 2.5px 0.5px 2.5px 2.5px;
+}
+
+.close{
+    margin: 2.5px 0.5px 2.5px 2.5px;
+}
+
+.corpo{
+    box-shadow: rgb(0 0 0 / 30%) 0px 10px 36px -18px inset;
+}
+
+#img{
+    max-width: 150px;
+    max-height: 150px;
+    margin: 10px;
+}
+
+#img:hover{
+    transform: scaleY(1.5) scaleX(1.5);
+}
+
+#toucas{
+    border-style: solid;
+    border-color: #1D2F4D;
+}
+
+#camisetas{
+    border-style: solid;
+    border-color: #1D2F4D;
+}
+
+#moletons{
+    border-style: solid;
+    border-color: #1D2F4D;
+}
+
+#sobtitulo{
+    text-align: center;
+    color: #2B4570;
+}
+
+#header{
+    border: none;
+    margin: 0px;
+}
+
+#logo{
+    text-align: center;
+    color: white;
+}
+
+#logo:hover{
+    cursor: none;
+    animation-name: icedrip;
+    animation-play-state: initial;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+@keyframes icedrip {
+    0% { color:#A8D0DB;}
+    3% { color: white;}
+    6% { color: #A8D0DB;}
+    9% { color: white;}
+    12% { color:#A8D0DB;}
+    15% { color: white;}
+    18% { color: #A8D0DB;}
+    21% { color: white;}
+    24% { color: #A8D0DB;}
+    27% { color: white;}
+    30% { color: #A8D0DB;}
+    33% { color: white;}
+    36% { color: #A8D0DB;}
+    39% { color: white;}
+    42% { color: #A8D0DB;}
+    45% { color: white;}
+    48% { color: #A8D0DB;}
+    51% { color: white;}
+    54% { color: #A8D0DB;}
+    57% { color: white;}
+}
+
+#menu{
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    margin-right: 20px;
+    right: 0;
+    cursor: pointer;
+}
+
+.menu div{
+    width: 30px;
+    height: 4px;
+    background: rgb(51, 51, 51) none repeat scroll 0% 0%;
+    margin-top: 3px;
+}
+
+.menuII{
+    background: #1D2F4D none repeat scroll 0% 0%;
+    width: 185px;
+    height: 100%;
+    position: absolute; /*necessária para o funcionamento*/
+    box-shadow: 1px 2px 3px #DDD;
+    left: -100%;  /*é com essa propriedade que o menu fica escondido a esquerda*/
+    transition: left .5s;
+}
+
+.menuII li{
+    color: #fff;
+    font-size: 20px;
+    padding: 18px;
+    cursor: pointer;
+}
+
+.menuII ul{
+    position: absolute;
+    top: 31px;
+}
+
+.corpo{
+    background-color: white;
+}
+
+div.loader{
+    margin: 566.93 0;
+}
