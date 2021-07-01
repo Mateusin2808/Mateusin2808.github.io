@@ -1,0 +1,38 @@
+p{
+    text-align: justify;
+    display: flex;
+}
+
+img{
+    margin: 15px;
+}
+
+.stopFloat{    
+    clear: both;
+}
+
+.alinharElementosAEsquerda{
+    float: left;
+  
+}
+
+.alinharElementosADireita{
+    float: right;
+}
+
+.alinharTextoADireita{
+    text-align: right;
+}
+
+.alinharTextoAEsquerda{
+    text-align: left;
+}
+
+.alinharAoCentro{
+    display: flex;
+    justify-content: center;
+}
+
+#video{
+     border-radius: 5%;
+}
